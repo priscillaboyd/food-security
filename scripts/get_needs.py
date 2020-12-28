@@ -5,7 +5,7 @@ import json
 import time
 
 # declare output path with dated filename
-dir = 'foodsecurity/data/'
+dir = 'data/'
 current_dt = time.strftime("%Y%m%d_%H%M%S")
 f = 'needs_' + current_dt + '.json'
 
